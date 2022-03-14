@@ -1,0 +1,188 @@
+/*admin.html styles*/
+.container__admin-auth {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.admin-auth__form-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+.admin-auth__caption {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Manrope Bold";
+  margin: 0;
+  margin-bottom: 65px;
+}
+.admin-auth__logo {
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+  padding-bottom: 40px;
+}
+.admin-auth__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.admin-auth__inputs {
+  outline: none;
+  width: 540px;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 25px;
+  border: 1px solid black;
+  font-family: "Manrope Light";
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.admin-auth__submit {
+  cursor: pointer;
+  width: 260px;
+  height: 60px;
+  border-radius: 25px;
+  font-size: 24px;
+  font-family: "Manrope Regular";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
+  background-color: #639ad2;
+  color: white;
+  margin-top: 10px;
+}
+.admin-auth__submit:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 0px 33px 2px rgba(99, 154, 210, 0.7);
+}
+
+/*adminMain.html styles*/
+.container__admin-header {
+  padding-top: 10px;
+  width: 1110px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header__links {
+  font-size: 24px;
+  font-family: "Manrope Regular";
+  color: black;
+  text-decoration: none;
+}
+
+.admin-header__step-back_disabled {
+  color: #808080 ;
+  pointer-events: none;
+  font-size: 24px;
+  font-family: "Manrope Regular";
+  text-decoration: none;
+}
+
+.admin-main__caption {
+  font-family: "Manrope Bold";
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.admin-main__table {
+  padding-bottom: 25px;
+}
+.admin-main__table-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+/*adminPanel.html styles*/
+.container__admin-header {
+  padding-top: 10px;
+  width: 1110px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header__links {
+  font-size: 24px;
+  font-family: "Manrope Regular";
+  color: black;
+  text-decoration: none;
+}
+
+.adminpanel-main__caption {
+  font-family: "Manrope Bold";
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.adminpanel__table {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 25px; 
+  font-size: 16px;
+}
+
+.adminpanel__table input[type='checkbox']{
+  max-width: 100%;
+  width:30px;
+  height: 30px;
+}
+.adminpanel__table, td{
+  border: 1px black solid;
+  border-collapse: collapse;
+}
+
+.adminpanel__change{
+  color:#639ad2;
+}
+
+.adminpanel__delete{
+  color:#ff0000;
+}
+
+.adminpanel__links-main{
+  padding:20px;
+
+  font-size: 18px;
+}
+.container__adminpanel a{
+  text-decoration: none;
+}
+.container__adminpanel a:hover{
+  color:initial;
+}
+
+.adminpanel__submit{
+  width: 330px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family: "Manrope Bold";
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
+  background-color: #639ad2;
+  color: white;
+  margin-top: 40px;
+}
+
+.adminpanel__submit:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 0px 33px 2px rgba(99, 154, 210, 0.7);
+}
